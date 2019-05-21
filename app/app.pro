@@ -6,6 +6,9 @@ SOURCES += \
     tetris.cpp \
     main.cpp
 
+HEADERS += \
+    functions.h
+    
 QMAKE_CFLAGS += -Wall -Wextra
 
 # gcov
