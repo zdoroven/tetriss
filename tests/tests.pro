@@ -34,8 +34,5 @@ LIBS += -lgcov
 SOURCES +=     main.cpp \
 	../app/tetris.cpp
 
-HEADERS +=     \
-        ../app/functions.h
-
 INCLUDEPATH += ../app
 INCLUDEPATH +=../SFML/include
